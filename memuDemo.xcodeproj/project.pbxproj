@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B222F1E81DAA30330089573D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F1E71DAA30330089573D /* AppDelegate.swift */; };
+		B222F1EA1DAA30330089573D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F1E91DAA30330089573D /* ViewController.swift */; };
+		B222F1ED1DAA30330089573D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B222F1EB1DAA30330089573D /* Main.storyboard */; };
+		B222F1EF1DAA30330089573D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B222F1EE1DAA30330089573D /* Assets.xcassets */; };
+		B222F1F21DAA30330089573D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B222F1F01DAA30330089573D /* LaunchScreen.storyboard */; };
+		B222F1FD1DAA30330089573D /* memuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F1FC1DAA30330089573D /* memuDemoTests.swift */; };
+		B222F2081DAA30330089573D /* memuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F2071DAA30330089573D /* memuDemoUITests.swift */; };
+		B222F2181DAA33DA0089573D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B222F2171DAA33DA0089573D /* SWRevealViewController.m */; };
+		B222F21A1DAA354D0089573D /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F2191DAA354D0089573D /* menuViewController.swift */; };
+		B222F21C1DAA36070089573D /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F21B1DAA36070089573D /* MenuCell.swift */; };
+		B222F21E1DAA46600089573D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F21D1DAA46600089573D /* MessageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B222F1F91DAA30330089573D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B222F1DC1DAA30320089573D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B222F1E31DAA30320089573D;
+			remoteInfo = memuDemo;
+		};
+		B222F2041DAA30330089573D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B222F1DC1DAA30320089573D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B222F1E31DAA30320089573D;
+			remoteInfo = memuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B222F1E41DAA30330089573D /* memuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B222F1E71DAA30330089573D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B222F1E91DAA30330089573D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B222F1EC1DAA30330089573D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B222F1EE1DAA30330089573D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B222F1F11DAA30330089573D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B222F1F31DAA30330089573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B222F1F81DAA30330089573D /* memuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B222F1FC1DAA30330089573D /* memuDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memuDemoTests.swift; sourceTree = "<group>"; };
+		B222F1FE1DAA30330089573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B222F2031DAA30330089573D /* memuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B222F2071DAA30330089573D /* memuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memuDemoUITests.swift; sourceTree = "<group>"; };
+		B222F2091DAA30330089573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B222F2151DAA33D90089573D /* memuDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memuDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B222F2161DAA33DA0089573D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B222F2171DAA33DA0089573D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B222F2191DAA354D0089573D /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		B222F21B1DAA36070089573D /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		B222F21D1DAA46600089573D /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B222F1E11DAA30320089573D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222F1F51DAA30330089573D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222F2001DAA30330089573D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B222F1DB1DAA30320089573D = {
+			isa = PBXGroup;
+			children = (
+				B222F1E61DAA30330089573D /* memuDemo */,
+				B222F1FB1DAA30330089573D /* memuDemoTests */,
+				B222F2061DAA30330089573D /* memuDemoUITests */,
+				B222F1E51DAA30330089573D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B222F1E51DAA30330089573D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B222F1E41DAA30330089573D /* memuDemo.app */,
+				B222F1F81DAA30330089573D /* memuDemoTests.xctest */,
+				B222F2031DAA30330089573D /* memuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B222F1E61DAA30330089573D /* memuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B222F1E71DAA30330089573D /* AppDelegate.swift */,
+				B222F1E91DAA30330089573D /* ViewController.swift */,
+				B222F2161DAA33DA0089573D /* SWRevealViewController.h */,
+				B222F2171DAA33DA0089573D /* SWRevealViewController.m */,
+				B222F1EB1DAA30330089573D /* Main.storyboard */,
+				B222F21D1DAA46600089573D /* MessageViewController.swift */,
+				B222F21B1DAA36070089573D /* MenuCell.swift */,
+				B222F1EE1DAA30330089573D /* Assets.xcassets */,
+				B222F1F01DAA30330089573D /* LaunchScreen.storyboard */,
+				B222F1F31DAA30330089573D /* Info.plist */,
+				B222F2151DAA33D90089573D /* memuDemo-Bridging-Header.h */,
+				B222F2191DAA354D0089573D /* menuViewController.swift */,
+			);
+			path = memuDemo;
+			sourceTree = "<group>";
+		};
+		B222F1FB1DAA30330089573D /* memuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B222F1FC1DAA30330089573D /* memuDemoTests.swift */,
+				B222F1FE1DAA30330089573D /* Info.plist */,
+			);
+			path = memuDemoTests;
+			sourceTree = "<group>";
+		};
+		B222F2061DAA30330089573D /* memuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B222F2071DAA30330089573D /* memuDemoUITests.swift */,
+				B222F2091DAA30330089573D /* Info.plist */,
+			);
+			path = memuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B222F1E31DAA30320089573D /* memuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B222F20C1DAA30330089573D /* Build configuration list for PBXNativeTarget "memuDemo" */;
+			buildPhases = (
+				B222F1E01DAA30320089573D /* Sources */,
+				B222F1E11DAA30320089573D /* Frameworks */,
+				B222F1E21DAA30320089573D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memuDemo;
+			productName = memuDemo;
+			productReference = B222F1E41DAA30330089573D /* memuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B222F1F71DAA30330089573D /* memuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B222F20F1DAA30330089573D /* Build configuration list for PBXNativeTarget "memuDemoTests" */;
+			buildPhases = (
+				B222F1F41DAA30330089573D /* Sources */,
+				B222F1F51DAA30330089573D /* Frameworks */,
+				B222F1F61DAA30330089573D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B222F1FA1DAA30330089573D /* PBXTargetDependency */,
+			);
+			name = memuDemoTests;
+			productName = memuDemoTests;
+			productReference = B222F1F81DAA30330089573D /* memuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B222F2021DAA30330089573D /* memuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B222F2121DAA30330089573D /* Build configuration list for PBXNativeTarget "memuDemoUITests" */;
+			buildPhases = (
+				B222F1FF1DAA30330089573D /* Sources */,
+				B222F2001DAA30330089573D /* Frameworks */,
+				B222F2011DAA30330089573D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B222F2051DAA30330089573D /* PBXTargetDependency */,
+			);
+			name = memuDemoUITests;
+			productName = memuDemoUITests;
+			productReference = B222F2031DAA30330089573D /* memuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B222F1DC1DAA30320089573D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Parth Changela";
+				TargetAttributes = {
+					B222F1E31DAA30320089573D = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					B222F1F71DAA30330089573D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B222F1E31DAA30320089573D;
+					};
+					B222F2021DAA30330089573D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B222F1E31DAA30320089573D;
+					};
+				};
+			};
+			buildConfigurationList = B222F1DF1DAA30320089573D /* Build configuration list for PBXProject "memuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B222F1DB1DAA30320089573D;
+			productRefGroup = B222F1E51DAA30330089573D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B222F1E31DAA30320089573D /* memuDemo */,
+				B222F1F71DAA30330089573D /* memuDemoTests */,
+				B222F2021DAA30330089573D /* memuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B222F1E21DAA30320089573D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B222F1F21DAA30330089573D /* LaunchScreen.storyboard in Resources */,
+				B222F1EF1DAA30330089573D /* Assets.xcassets in Resources */,
+				B222F1ED1DAA30330089573D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222F1F61DAA30330089573D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222F2011DAA30330089573D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B222F1E01DAA30320089573D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B222F1EA1DAA30330089573D /* ViewController.swift in Sources */,
+				B222F21C1DAA36070089573D /* MenuCell.swift in Sources */,
+				B222F1E81DAA30330089573D /* AppDelegate.swift in Sources */,
+				B222F2181DAA33DA0089573D /* SWRevealViewController.m in Sources */,
+				B222F21E1DAA46600089573D /* MessageViewController.swift in Sources */,
+				B222F21A1DAA354D0089573D /* menuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222F1F41DAA30330089573D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B222F1FD1DAA30330089573D /* memuDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B222F1FF1DAA30330089573D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B222F2081DAA30330089573D /* memuDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B222F1FA1DAA30330089573D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B222F1E31DAA30320089573D /* memuDemo */;
+			targetProxy = B222F1F91DAA30330089573D /* PBXContainerItemProxy */;
+		};
+		B222F2051DAA30330089573D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B222F1E31DAA30320089573D /* memuDemo */;
+			targetProxy = B222F2041DAA30330089573D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B222F1EB1DAA30330089573D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B222F1EC1DAA30330089573D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B222F1F01DAA30330089573D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B222F1F11DAA30330089573D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B222F20A1DAA30330089573D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B222F20B1DAA30330089573D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B222F20D1DAA30330089573D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = memuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parth.memuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "memuDemo/memuDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B222F20E1DAA30330089573D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = memuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parth.memuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "memuDemo/memuDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B222F2101DAA30330089573D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = memuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parth.memuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memuDemo.app/memuDemo";
+			};
+			name = Debug;
+		};
+		B222F2111DAA30330089573D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = memuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parth.memuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memuDemo.app/memuDemo";
+			};
+			name = Release;
+		};
+		B222F2131DAA30330089573D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = memuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parth.memuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = memuDemo;
+			};
+			name = Debug;
+		};
+		B222F2141DAA30330089573D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = memuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parth.memuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = memuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B222F1DF1DAA30320089573D /* Build configuration list for PBXProject "memuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B222F20A1DAA30330089573D /* Debug */,
+				B222F20B1DAA30330089573D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B222F20C1DAA30330089573D /* Build configuration list for PBXNativeTarget "memuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B222F20D1DAA30330089573D /* Debug */,
+				B222F20E1DAA30330089573D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B222F20F1DAA30330089573D /* Build configuration list for PBXNativeTarget "memuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B222F2101DAA30330089573D /* Debug */,
+				B222F2111DAA30330089573D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B222F2121DAA30330089573D /* Build configuration list for PBXNativeTarget "memuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B222F2131DAA30330089573D /* Debug */,
+				B222F2141DAA30330089573D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B222F1DC1DAA30320089573D /* Project object */;
+}
